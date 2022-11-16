@@ -11,19 +11,6 @@
     --color-black: #1a1a1a;
 }
 
-body::-webkit-scrollbar {
-	width: 12px;
-}
-
-body::-webkit-scrollbar-track {
-	background: var(--color-black);
-}
-
-body::-webkit-scrollbar-thumb {
-	background-color: var(--color-text);
-	border-radius: 20px;
-}
-
 h1, p { margin: 0; padding: 0; }
 
 body {
