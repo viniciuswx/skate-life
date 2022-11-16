@@ -14,14 +14,6 @@ A ideia do site era apenas mostrar a beleza por dentro do esporte Skate, mas ao 
   <img alt="" src="assets/imagens/print-page-2.jpeg">
 </p>
 
-## Cores usadas no projeto
-
-| Cor               | Hexadecimal                                                |
-| ----------------- | ---------------------------------------------------------------- |
-| Branco       | #efefef |
-| Laranja       | #af6a3e |
-| Preto       | #1a1a1a |
-
 ## Funcionalidades
 
 - Disponível para Mobiel e Desktop
