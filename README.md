@@ -16,7 +16,7 @@ A ideia do site era apenas mostrar a beleza por dentro do esporte Skate, mas ao 
 
 ## Funcionalidades
 
-- Disponível para Mobiel e Desktop
+- Mobile e Desktop
 - Preview em tempo real
 
 ## Feedback
