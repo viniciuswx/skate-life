@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+:root {
+    --ff-oswald: 'Oswald', sans-serif;
+    --ff-montserrat: 'Montserrat', sans-serif;
+
+    --color-text: #efefef;
+    --color-orange: #af6a3e;
+    --color-black: #1a1a1a;
+}
+
+html { scroll-behavior: smooth; }
+
+h1, p, a { margin: 0; padding: 0; text-decoration: none; }
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: var(--color-orange);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+header a img {
+    width: 100px;
+    transition: all .3s ease;
+}
+
+header a img:hover {
+    filter: drop-shadow(0 5px 5px var(--color-black));
+}
+
+header nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: .5rem;
+}
+
+header nav a {
+    color: var(--color-black);
+    font-family: var(--ff-oswald);
+    text-transform: uppercase;
+    padding: .5rem;
+    transition: all .3s ease;
+    text-align: center;
+}
+
+header nav a:hover {
+    background-color: var(--color-black);
+    color: var(--color-orange);
+}
+
+main {
+    background-color: var(--color-orange);
+    display: flex;
+    flex-direction: column;
+}
+
+main .introducao {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    font-family: var(--ff-montserrat);
+    text-align: center;
+    font-size: 2rem;
+    padding: 0 2rem;
+}
+
+main .introducao .title { color: var(--color-black); }
+
+main .introducao .title h1:nth-child(2) span {
+    background-color: var(--color-black);
+    color: var(--color-orange);
+    padding: 0rem .5rem;
+}
+
+main .introducao figure {
+    font-size: 1rem;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+    margin: 0;
+}
+
+main .introducao figure img {
+    width: 250px;
+    transform: rotateZ(-5deg);
+    background-color: var(--color-black);
+    padding: 1rem;
+}
+
+main .introducao figure figcaption {
+    transform: rotateZ(-5deg) translate(15px);
+}
+
+main .sobre {
+    margin: 0 0 4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+main .sobre > h1 {
+    font-family: var(--ff-oswald);
+    color: var(--color-black);
+}
+
+main .sobre > p { font-family: var(--ff-montserrat); line-height: 2rem;}
+
+main .sobre p a {
+    background-color: var(--color-black);
+    padding: .25rem .5rem;
+    color: var(--color-text);
+}
+
+main .sobre p a:visited {
+    color: var(--color-orange);
+}
+
+main .sobre .referencias {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    text-align: left;
+    position: absolute;
+    transform: translate(-327px, 370px);
+}
+
+main .sobre .referencias .sites {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+
+main .sobre .referencias span {
+    font-family: var(--ff-oswald);
+    font-size: 1.25rem;
+    border-bottom: 2px solid var(--color-black);
+}
+
+main .sobre .referencias a {
+    font-family: var(--ff-montserrat);
+    background-color: var(--color-black);
+    color: var(--color-text);
+    padding: .25rem;
+
+}
+
+main .sobre .referencias a:visited {
+    color: var(--color-orange);
+}
+
+footer {
+    background-color: var(--color-black);
+    color: var(--color-text);
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 4rem 2rem;
+}
+
+footer .informacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+footer .informacoes > h1 { font-family: var(--ff-oswald); }
+
+footer .informacoes .localidade {
+    font-family: var(--ff-montserrat);
+    display: flex;
+    flex-direction: column;
+}
+
+footer .informacoes .contato {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    font-family: var(--ff-montserrat);
+}
+
+footer .informacoes .contato .contatos {
+    display: flex;
+    gap: .5rem;
+}
+
+footer .informacoes .localidade span:nth-child(3) {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+footer .redes-sociais {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+footer .redes-sociais > h1 {
+    font-family: var(--ff-oswald);
+}
+
+footer .redes-sociais .redes {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    font-family: var(--ff-montserrat);
+}
+
+footer .redes-sociais .redes .rede a {
+    display: flex;
+    gap: .5rem;
+    color: var(--color-text);
+    align-items: center;
+    width: 110px;
+}
+
+footer .redes-sociais .redes .rede a {
+    transition: all .3s ease;
+}
+
+footer .redes-sociais .redes .github a:hover  {
+    color: darkcyan;
+}
+
+footer .redes-sociais .redes .instagram a:hover  {
+    color: #ff1493;
+}
+
+footer .redes-sociais .redes .linkedin a:hover  {
+    color: #0e76a8;
+}
+
+footer .entrar-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+footer .entrar-contato > h1 {
+    font-family: var(--ff-oswald);
+}
+
+footer .entrar-contato form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+footer .entrar-contato form .name-email {
+    display: flex;
+    gap: .5rem;
+}
+
+footer .entrar-contato form .name-email input {
+    width: 50%;
+}
+
+footer .entrar-contato form #nome,
+footer .entrar-contato form #email,
+footer .entrar-contato form #sobre,
+footer .entrar-contato form #textarea {
+    border-style: none;
+    background-color: var(--color-black);
+    color: var(--color-text);
+    border-bottom: 2px solid var(--color-text);
+    padding: .5rem 0;
+    outline: none;
+    font-family: var(--ff-montserrat);
+    transition: all .3s ease;
+}
+
+footer .entrar-contato form #textarea {
+    height: 75px;
+}
+
+footer .entrar-contato form input::placeholder,
+footer .entrar-contato form textarea::placeholder {
+    color: var(--color-text);
+    font-family: var(--ff-montserrat);
+}
+
+footer .entrar-contato form textarea { resize: none; }
+
+footer .entrar-contato form #submit {
+    border-style: none;
+    background-color: var(--color-text);
+    color: var(--color-black);
+    padding: .5rem 0;
+    outline: none;
+    font-family: var(--ff-oswald);
+    border: 2px solid transparent;
+    transition: all .3s ease;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+footer .entrar-contato form #nome:focus,
+footer .entrar-contato form #email:focus,
+footer .entrar-contato form #sobre:focus,
+footer .entrar-contato form #textarea:focus {
+    border-bottom: 2px solid var(--color-orange);
+}
+
+footer .entrar-contato form #submit:hover {
+    background-color: var(--color-black);
+    color: var(--color-text);
+    border: 2px solid var(--color-text);
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    header {
+        padding: 2rem 6rem;
+    }
+
+    header a img {
+        width: 200px;
+    }
+
+    header nav a {
+        font-size: 1.25rem;
+    }
+
+    main .introducao {
+        margin-top: 0;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem 6rem;
+    }
+
+    main .introducao .title h1 {
+        transform: translate(50px);
+        font-size: 5rem;
+    }
+
+    main .introducao figure img {
+        width: 600px;
+        transform: translate(250px);
+    }
+
+    main .introducao figure figcaption {
+        transform: translate(0);
+        transform: translate(250px);
+    }
+
+    main .sobre {
+        padding-top: 4rem;
+        margin-bottom: 12rem;
+    }
+
+    main .sobre h1 {
+        font-size: 5rem;
+    }
+
+    main .sobre p {
+        max-width: 750px;
+        text-align: justify;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 6rem;
+    }
+}
+
+@media screen and (min-width: 1920px){
+    main .introducao .title h1 {
+        transform: translate(150px);
+        font-size: 5rem;
+    }
+
+    main .introducao figure img {
+        width: 800px;
+        transform: translate(250px);
+    }
+
+    main .introducao figure figcaption {
+        transform: translate(0);
+        transform: translate(250px);
+    }
+}
