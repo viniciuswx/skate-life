@@ -18,9 +18,9 @@ A ideia do site era apenas mostrar a beleza por dentro do esporte Skate, mas ao 
 
 | Cor               | Hexadecimal                                                |
 | ----------------- | ---------------------------------------------------------------- |
-| Branco       | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
-| Laranja       | ![#af6a3e](https://via.placeholder.com/10/af6a3e?text=+) #af6a3e |
-| Preto       | ![#1a1a1a](https://via.placeholder.com/10/1a1a1a?text=+) #1a1a1a |
+| Branco       | #efefef |
+| Laranja       | #af6a3e |
+| Preto       | #1a1a1a |
 
 ## Funcionalidades
 
