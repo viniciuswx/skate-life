@@ -6,12 +6,14 @@ A ideia do site era apenas mostrar a beleza por dentro do esporte Skate, mas ao 
 
 <p align="center">
   <img alt="" src="assets/imagens/print-page-1.jpeg">
+  <img alt="" src="assets/imagens/print-page-1-mobile.jpeg">
 </p>
 
 <br/>
 
 <p align="center">
   <img alt="" src="assets/imagens/print-page-2.jpeg">
+  <img alt="" src="assets/imagens/print-page-2-mobile.jpeg">
 </p>
 
 ## Funcionalidades
