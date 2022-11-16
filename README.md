@@ -5,13 +5,13 @@ A ideia do site era apenas mostrar a beleza por dentro do esporte Skate, mas ao 
 ## Preview do projeto
 
 <p align="center">
-  <img alt="" src="print-page-1.jpeg">
+  <img alt="" src="assets/imagens/print-page-1.jpeg">
 </p>
 
 <br/>
 
 <p align="center">
-  <img alt="" src="print-page-2.jpeg">
+  <img alt="" src="assets/imagens/print-page-2.jpeg">
 </p>
 
 ## Cores usadas no projeto
